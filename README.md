@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-slice@esm/index.mjs';
+import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-slice@v0.2.0-esm/index.mjs';
 ```
 
 #### slice( x\[, start\[, end]] )
@@ -131,7 +131,7 @@ var out = slice( x, 1, 4 );
 
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-zero-to@esm/index.mjs';
-import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-slice@esm/index.mjs';
+import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-slice@v0.2.0-esm/index.mjs';
 
 var x = zeroTo( 6, 'float64' );
 // returns <Float64Array>[ 0.0, 1.0, 2.0, 3.0, 4.0, 5.0 ]
