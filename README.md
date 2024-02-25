@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-slice@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-slice/tags). For example,
+
+```javascript
 import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-slice@v0.2.1-esm/index.mjs';
 ```
 
@@ -131,7 +136,7 @@ var out = slice( x, 1, 4 );
 
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-zero-to@esm/index.mjs';
-import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-slice@v0.2.1-esm/index.mjs';
+import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-slice@esm/index.mjs';
 
 var x = zeroTo( 6, 'float64' );
 // returns <Float64Array>[ 0.0, 1.0, 2.0, 3.0, 4.0, 5.0 ]
