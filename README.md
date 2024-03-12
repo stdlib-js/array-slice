@@ -178,6 +178,12 @@ s = slice( x, 2, 4 );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/array-take`][@stdlib/array/take]</span><span class="delimiter">: </span><span class="description">take elements from an array.</span>
+
 </section>
 
 <!-- /.related -->
@@ -221,8 +227,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/array-slice.svg
 [npm-url]: https://npmjs.org/package/@stdlib/array-slice
 
-[test-image]: https://github.com/stdlib-js/array-slice/actions/workflows/test.yml/badge.svg?branch=v0.2.1
-[test-url]: https://github.com/stdlib-js/array-slice/actions/workflows/test.yml?query=branch:v0.2.1
+[test-image]: https://github.com/stdlib-js/array-slice/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/array-slice/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/array-slice/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/array-slice?branch=main
@@ -253,6 +259,12 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/array-slice/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-slice/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/array/take]: https://github.com/stdlib-js/array-take
+
+<!-- </related-links> -->
 
 </section>
 
