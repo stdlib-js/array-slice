@@ -1,0 +1,4 @@
+// Copyright (c) 2024 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import e from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-collection@v0.2.2-esm/index.mjs";import{isPrimitive as r}from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-integer@v0.2.2-esm/index.mjs";import s from"https://cdn.jsdelivr.net/gh/stdlib-js/array-base-slice@v0.2.2-esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-fmtprodmsg@v0.2.2-esm/index.mjs";function i(i){var n,o;if(!e(i))throw new TypeError(t("1pF2O",i));if(arguments.length>1){if(!r(n=arguments[1]))throw new TypeError(t("1pF7f",n));if(arguments.length>2){if(!r(o=arguments[2]))throw new TypeError(t("1pF2z",o))}else o=i.length}else n=0,o=i.length;return s(i,n,o)}export{i as default};
+//# sourceMappingURL=index.mjs.map
