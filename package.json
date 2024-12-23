@@ -37,15 +37,15 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-slice": "^0.2.1",
+    "@stdlib/array-base-slice": "^0.2.2",
     "@stdlib/assert-is-collection": "^0.2.2",
     "@stdlib/assert-is-integer": "^0.2.2",
     "@stdlib/string-format": "^0.2.2",
-    "@stdlib/types": "^0.3.2",
+    "@stdlib/types": "^0.4.3",
     "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/array-base-accessor": "^0.2.1",
+    "@stdlib/array-base-accessor": "^0.2.2",
     "@stdlib/array-float64": "^0.2.2",
     "@stdlib/array-int32": "^0.2.2",
     "@stdlib/array-ones": "^0.2.1",
