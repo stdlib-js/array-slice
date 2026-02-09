@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-slice@deno/mod.js';
+import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-slice@v0.2.3-deno/mod.js';
 ```
 
 #### slice( x\[, start\[, end]] )
@@ -126,7 +126,7 @@ var out = slice( x, 1, 4 );
 ```javascript
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-zero-to@deno/mod.js';
-import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-slice@deno/mod.js';
+import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-slice@v0.2.3-deno/mod.js';
 
 var x = zeroTo( 6, 'float64' );
 // returns <Float64Array>[ 0.0, 1.0, 2.0, 3.0, 4.0, 5.0 ]
